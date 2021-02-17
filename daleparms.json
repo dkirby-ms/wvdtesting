@@ -1,0 +1,78 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "hostpoolName": {
+            "value": "HP-ENG-POOL-01"
+          },
+      "hostpoolFriendlyName": {
+        "value": "Engineering Suite v12"
+      },
+      "hostpoolDescription": {
+        "value": "Engineering Suite v12"
+      },
+      "location": {
+        "value": "East US"
+      },
+      "workspaceName": {
+        "value": "WS-ENG-POOL-01"
+      },
+      "workspaceLocation": {
+        "value": "East US"
+      },
+      "workspaceResourceGroup": {
+        "value": "aspen1"
+      },
+      "allApplicationGroupReferences": {
+        "value": ""
+      },
+      "administratorAccountUsername": {
+        "value": "dale@aspen.local"
+      },
+      "administratorAccountPassword": {
+        "value": "Pass@word123!"
+      },
+      "vmAdministratorAccountUsername": {
+        "value": "dale"
+      },
+      "vmAdministratorAccountPassword": {
+        "value": "Pass@word123!"
+      },
+      "vmLocation": {
+        "value": "East US"
+      },
+      "vmSize": {
+        "value": "Standard_D4s_v3"
+      },
+      "vmNumberOfInstances": {
+        "value": 1
+      },
+      "vmNamePrefix": {
+        "value": "DKhost"
+      },
+      "vmImageType": {
+        "value": "Gallery"
+      },
+      "vmGalleryImageOffer": {
+        "value": "WindowsServer"
+      },
+      "vmGalleryImagePublisher": {
+        "value": "MicrosoftWindowsServer"
+      },
+      "vmGalleryImageSKU": {
+        "value": "2019-Datacenter"
+      },
+      "tokenExpirationTime": {
+        "value": "2021-03-01T14:01:54.9571247Z"
+      },
+      "virtualNetworkResourceGroupName": {
+        "value": "aspen1"
+      },
+      "existingVnetName": {
+        "value": "ad-vnet"
+      },
+      "existingSubnetName": {
+        "value": "ad-vnet-subnet"
+      }
+    }
+  }
